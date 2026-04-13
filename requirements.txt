@@ -1,0 +1,7 @@
+sentence-transformers
+faiss-cpu
+rank_bm25
+numpy
+PyMuPDF
+torch
+mcp

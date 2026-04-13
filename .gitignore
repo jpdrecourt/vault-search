@@ -1,0 +1,4 @@
+.env
+config.json
+index_data/
+__pycache__/
