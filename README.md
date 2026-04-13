@@ -78,14 +78,14 @@ Hybrid semantic + keyword search. See project README for full details.
 ## Search
 
 \```bash
-python ~/Documents/Projects/260310-vault-search/search.py "query" --top_k 20
+python /path/to/vault-search/search.py "query" --top_k 20
 \```
 
 ## Reindex
 
 \```bash
-python ~/Documents/Projects/260310-vault-search/indexer.py --scope vault
+python /path/to/vault-search/indexer.py --scope vault
 \```
 ```
 
-Adjust the path to wherever you cloned this project.
+Replace `/path/to/vault-search/` with wherever you cloned this project.
