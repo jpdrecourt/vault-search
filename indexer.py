@@ -85,7 +85,8 @@ def load_config() -> dict:
     with open(CONFIG_PATH, "w", encoding="utf-8") as f:
         json.dump(DEFAULT_CONFIG, f, indent=2)
     print(f"Created default config at {CONFIG_PATH}")
-    return DEFAULT_CONFIG
+    print(f"Edit the 'root' paths in config.json to point at your notes directory, then run again.")
+    raise SystemExit(1)
 
 
 def get_scope_config(config: dict, scope: str) -> dict:
